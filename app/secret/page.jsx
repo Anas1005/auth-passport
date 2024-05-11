@@ -1,18 +1,18 @@
 'use client'
  
-import { useSearchParams } from 'next/navigation'
+// import { useSearchParams } from 'next/navigation'
 // import { LoginSocialUser } from '@/redux/slices/authSlice';
 // import { useEffect } from 'react';
 // import {jwtDecode} from 'jwt-decode';
 // import { useDispatch } from 'react-redux';
  
 const Secret = () =>{
-  const searchParams = useSearchParams()
+//   const searchParams = useSearchParams()
 //   const dispatch = useDispatch();
-
+const token = "dmakmdkamk"
   // useEffect(() => {
-    const token = searchParams.get('token');
-    console.log("Token", token);
+    // const token = searchParams.get('token');
+    console.log("Token", l,);
     // let decodedToken;
     // if (token) {
     //   decodedToken = jwtDecode(token);
