@@ -16,7 +16,7 @@ const Slug = ({params}) => {
   console.log(params)
   return (
 <div>
-{params.slug} {"jjdnajndjanjn"}
+{params.slug} {Math.random()*2}
     </div>
   )
 };

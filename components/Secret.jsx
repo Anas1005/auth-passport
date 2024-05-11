@@ -32,14 +32,14 @@
 // }
 
 // export default Secret;
-'use client'
+
 
 import { useSearchParams } from 'next/navigation'
 
 const Secret = () => {
     const searchParams = useSearchParams()
  // Wrap the component or code block that uses useSearchParams() with Suspense
- console.log("Hello From Ssecrrt ........")
+ console.log("Hello From Ssecrrt Child........")
   const token = searchParams.get('token');
 //const token = "kakmsa";
   return (
