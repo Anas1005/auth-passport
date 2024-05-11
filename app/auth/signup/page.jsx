@@ -3,7 +3,7 @@ import React from 'react'
 const SignUp = () => {
   // console.log(params);
   return (
-    <div>Sign Up</div>
+    <div>Sign Upcjanjdnajndjan</div>
   )
 }
 
