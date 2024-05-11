@@ -16,7 +16,7 @@ const Slug = ({params}) => {
   console.log(params)
   return (
 <div>
-{params.slug}
+{params.slug} {"jjdnajndjanjn"}
     </div>
   )
 };
