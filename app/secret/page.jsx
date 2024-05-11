@@ -12,7 +12,7 @@ const Secret = () =>{
 const token = "dmakmdkamk"
   // useEffect(() => {
     // const token = searchParams.get('token');
-    console.log("Token", l,);
+    console.log("Token");
     // let decodedToken;
     // if (token) {
     //   decodedToken = jwtDecode(token);
